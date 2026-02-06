@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Planet Fitness - Inicio</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, Helvetica, sans-serif;
+    background:#f2f2f2;
+}
+
+/* HEADER */
+header{
+    background:#2c2c2c;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:10px 40px;
+}
+header img{height:45px;}
+.btn{
+    background:#ffd400;
+    padding:10px 20px;
+    color:black;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:4px;
+}
+
+/* HERO */
+.hero{
+    background:linear-gradient(90deg,#5a168f,#8e24aa);
+    height:420px;
+    display:flex;
+    align-items:center;
+    padding:40px;
+    color:white;
+}
+.hero-text{width:60%;}
+.hero-text h2{margin:0;}
+.hero-text h1{
+    font-size:60px;
+    color:#ffd400;
+}
+.hero-img{width:40%; text-align:center;}
+.hero-img img{height:320px;}
+
+/* SECCIONES */
+.section{
+    background:white;
+    padding:60px 40px;
+    text-align:center;
+}
+.section h2{font-size:32px;}
+
+/* ICONOS */
+.icons{
+    display:flex;
+    justify-content:space-around;
+    margin-top:40px;
+}
+.icon-box{
+    width:22%;
+}
+.icon-box img{
+    height:60px;
+}
+.icon-box p{
+    font-size:15px;
+}
+
+/* MEMBRESÍAS */
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:40px;
+    margin-top:40px;
+}
+.card{
+    width:300px;
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+.card.premium{
+    background:#6a1b9a;
+    color:white;
+}
+.price{
+    font-size:40px;
+    color:#ffd400;
+}
+
+/* FOOTER */
+footer{
+    background:#2c2c2c;
+    color:white;
+    text-align:center;
+    padding:20px;
+    font-size:14px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <img src="imagenes/logo.jpg">
+    <a href="#" class="btn">Inscríbete</a>
+</header>
+
+<section class="hero">
+    <div class="hero-text">
+        <h2>¡ÚLTIMOS DÍAS!</h2>
+        <h1>Desde $150 a $300</h1>
+        <p>Inscripción y anualidad en ambas membresías</p>
+        <a href="#" class="btn">¡INSCRÍBETE YA!</a>
+    </div>
+    <div class="hero-img">
+        <img src="imagenes/persona.jpg">
+    </div>
+</section>
+
+<section class="section">
+    <h2>¿QUÉ OBTIENES?</h2>
+
+    <div class="icons">
+        <div class="icon-box">
+            <img src="imagenes/icono1.jpg">
+            <p>Apoyo en tu entrenamiento físico</p>
+        </div> <div class="icon-box">
+            <img src="imagenes/icono3.jpg">
+            <p>Gran variedad de equipo</p>
+        </div> <div class="icon-box">
+            <img src="imagenes/icono4.jpg">
+            <p>Membresías sin compromiso</p>
+        </div> </div>
+</section>
+
+<section class="section" style="background:#eee;">
+    <h2>MEMBRESÍAS</h2>
+    <p>Tenemos el plan adecuado para ti.</p>
+
+    <div class="cards">
+        <div class="card premium">
+            <h3>PF BLACK CARD®</h3>
+            <p class="price">$499</p>
+            <p>Acceso a todas las sucursales</p>
+        </div>
+
+        <div class="card">
+            <h3>MEMBRESÍA CLÁSICA</h3>
+            <p class="price">$279</p>
+            <p>Acceso al club local</p>
+        </div>
+    </div>
+
+    <br>
+    <a href="#" class="btn">Inscríbete ya</a>
+</section>
+
+<footer>
+    © 2026 Planet Fitness México
+</footer>
+
+</body>
+</html>
